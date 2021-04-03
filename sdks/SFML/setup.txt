@@ -1,0 +1,8 @@
+Linker General - Additional Include Directories/Additional Include Libraries: $(SolutionDir)\sdks\SFML-2.5.1\include
+C/C++ General - Additionl Library Directories/Additional Include Directories: $(SolutionDir)\sdks\SFML-2.5.1\lib
+Preprocessor: SFML_STATIC;
+Linker Input - Additional Dependencies: 
+Networking:
+	Debug: sfml-graphics-s-d.lib; sfml-window-s-d.lib; sfml-audio-s-d.lib; sfml-network-s-d.lib; sfml-system-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;
+	Release: sfml-graphics-s.lib; sfml-window-s.lib; sfml-audio-s.lib; sfml-network-s.lib; sfml-system-s.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;openal32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib;ws2_32.lib;
+
